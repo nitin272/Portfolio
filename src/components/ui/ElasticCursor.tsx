@@ -88,7 +88,7 @@ function ElasticCursor() {
     set.sy = gsap.quickSetter(jellyRef.current, "scaleY");
     set.width = gsap.quickSetter(jellyRef.current, "width", "px");
     set.height = gsap.quickSetter(jellyRef.current, "height", "px");
-  }, []);
+  }, [set]);
 
   const loop = useCallback(() => {
     if (!set.width || !set.sx || !set.sy || !set.r || !set.height) return;
@@ -106,7 +106,7 @@ function ElasticCursor() {
     } else {
       set.r(0);
     }
-  }, [isHovering, isLoading]);
+  }, [isHovering, isLoading, pos, vel, set]);
 
   const [cursorMoved, setCursorMoved] = useState(false);
 
@@ -171,7 +171,7 @@ function ElasticCursor() {
     return () => {
       window.removeEventListener("mousemove", setFromEvent);
     };
-  }, [isLoading, loop, cursorMoved]);
+  }, [isMobile, isLoading, loop, cursorMoved, pos, vel]);
 
   useTicker(loop, isLoading || !cursorMoved || isMobile);
 

@@ -686,7 +686,7 @@ const projects: Project[] = [
             /contact – Contact form<br/>
             /legal-book – Static legal guide with optional AI search<br/>
             /schedule-meet – Client appointment booking<br/>
-            /consultation – Lawyer's meeting dashboard
+            /consultation – Lawyer&apos;s meeting dashboard
           </p>
           
           <TypographyH3 className="my-4 mt-8">Impact</TypographyH3>

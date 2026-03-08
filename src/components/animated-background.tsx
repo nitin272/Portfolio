@@ -211,6 +211,7 @@ const AnimatedBackground = () => {
 
   // initialize gsap animations
   useEffect(() => {
+    if (!splineApp) return;
     handleSplineInteractions();
     handleGsapAnimations();
     setBongoAnimation(getBongoAnimation());
@@ -237,7 +238,6 @@ const AnimatedBackground = () => {
         kbd.rotation,
         {
           y: 0,
-          // x: -Math.PI,
           x: -Math.PI,
           z: 0,
         },
@@ -247,7 +247,6 @@ const AnimatedBackground = () => {
           repeat: -1,
           yoyo: true,
           yoyoEase: true,
-          // ease: "none",
           delay: 2.5,
           immediateRender: false,
           paused: true,
@@ -263,6 +262,7 @@ const AnimatedBackground = () => {
         teardownKeyboard.pause();
       }
       if (activeSection === "skills") {
+        // Skills section handling
       } else {
         try {
           splineApp.setVariable("heading", "");
@@ -292,7 +292,7 @@ const AnimatedBackground = () => {
       if (rotateKeyboard) rotateKeyboard.kill();
       if (teardownKeyboard) teardownKeyboard.kill();
     };
-  }, [activeSection, splineApp]);
+  }, [activeSection, splineApp, bongoAnimation, keycapAnimtations]);
 
   const [keyboardRevealed, setKeyboardRevealed] = useState(false);
   const router = useRouter();
@@ -302,7 +302,7 @@ const AnimatedBackground = () => {
     router.push("/" + hash, { scroll: false });
     if (!splineApp || isLoading || keyboardRevealed) return;
     revealKeyCaps();
-  }, [splineApp, isLoading, activeSection]);
+  }, [splineApp, isLoading, activeSection, keyboardRevealed, router]);
   const revealKeyCaps = async () => {
     if (!splineApp) return;
     const kbd = splineApp.findObjectByName("keyboard");
