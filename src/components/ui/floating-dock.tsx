@@ -101,6 +101,7 @@ const FloatingDockDesktop = ({
   const [showHint, setShowHint] = useState(true);
   const timer = useRef<NodeJS.Timeout>();
   const controls = useAnimation();
+  
   useEffect(() => {
     if (showHint) {
       controls.start({
@@ -118,11 +119,14 @@ const FloatingDockDesktop = ({
     } else {
       controls.stop();
     }
+    
     return () => {
       controls.stop();
-      clearInterval(timer.current);
+      if (timer.current) {
+        clearInterval(timer.current);
+      }
     };
-  }, [showHint]);
+  }, [showHint, controls]);
   return (
     <div className="relative h-fit flex items-center justify-center">
       <motion.div

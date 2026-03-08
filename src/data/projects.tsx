@@ -1,8 +1,5 @@
 import AceTernityLogo from "@/components/logos/aceternity";
-import { Button } from "@/components/ui/button";
 import { TypographyH3, TypographyP } from "@/components/ui/typography";
-import { ArrowUpRight } from "lucide-react";
-import Link from "next/link";
 import { ReactNode } from "react";
 import { RiNextjsFill, RiNodejsFill, RiReactjsFill } from "react-icons/ri";
 import {
@@ -35,14 +32,6 @@ import {
   SiFlutter,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
-
-const ProjectsLinks = ({ live, repo }: { live: string; repo?: string }) => {
-  return (
-    <div className="flex flex-col md:flex-row items-center justify-start gap-3 my-3 mb-8">
-      {/* Links removed - details displayed inline */}
-    </div>
-  );
-};
 
 export type Skill = {
   title: string;
@@ -555,7 +544,7 @@ const projects: Project[] = [
           <TypographyH3 className="my-4 mt-8">How It Works</TypographyH3>
           <p className="font-mono mb-2">
             • Launches two parallel processes for UI and hotword detection<br/>
-            • Uses Porcupine engine to detect hotwords like "Jarvis" or "Alexa"<br/>
+            • Uses Porcupine engine to detect hotwords like &quot;Jarvis&quot; or &quot;Alexa&quot;<br/>
             • Triggers commands based on detected hotwords<br/>
             • Interactive web-based UI for easy interaction
           </p>
