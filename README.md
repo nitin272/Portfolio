@@ -1,113 +1,145 @@
-![Portfolio Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/seo/og-image.png?raw=true)
+# 🚀 Nitin Soni – Portfolio Website
 
-# 🚀 My Portfolio Website
+Welcome to the repository for my personal portfolio website. This project showcases my work, technical skills, and projects in software engineering, backend development, and platform engineering.
 
-Welcome to the repository for my personal portfolio website! 🎉 This project is a culmination of creativity, technology, and my dedication to showcasing my skills, projects, and personality in a visually stunning and interactive manner.
+Through this portfolio, I highlight the systems I’ve built, the technologies I work with, and my approach to building scalable backend applications and modern web experiences.
 
-### Live preview: https://www.abhijitzende.com/
+## 🌐 Live Website
 
-![Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/preview_video.gif?raw=true)
-
-https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/preview_video.mp4
-
-This project is **inspired** by the amazing work of [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio). His innovative approach to web design and attention to detail has been a huge influence. Thank you, Naresh! 🙏
-
-## 🔥 Features
-
-Here are the key highlights of my portfolio:
-
-### 🎹 **3D Interactive Animations**
-- Features a custom-made interactive keyboard built with **Spline**.
-- Each keycap represents a skill and reveals titles and descriptions on hover for an immersive experience.
-- Smooth, responsive 3D interactions that captivate visitors.
-
-### ✨ **Slick Interactions & Animations**
-- Powered by **GSAP** and **Framer Motion**, delivering buttery-smooth animations on scroll, hover, and element reveals.
-- Creative motion designs that enhance storytelling and keep users engaged.
-
-### 🌌 **Space-Themed Design**
-- Particles floating on a dark, cosmic background simulate an outer-space vibe.
-- Adds a unique and futuristic look to the portfolio.
-
-### 📱 **Responsive Design**
-- Fully responsive layout ensures the website looks and functions beautifully on all devices.
-- Optimized for both desktop and mobile experiences.
-
-### 🧠 **Innovative Web Design**
-- Combines cutting-edge technology with an intuitive user experience.
-- Creative use of animations and visuals to push the boundaries of modern web design.
-
-## 🛠️ Tech Stack
-
-The portfolio website is built using the following tools and technologies:
-
-- **Frontend:** Next.js, React, Tailwind CSS, Shadcn, Aceternity UI
-- **Animations:** GSAP, Framer Motion, Spline Runtime
-- **Other Tools:** Resend, Socket.io, Zod
-
-## 🌟 Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Abhiz2411/3D-interactive-portfolio.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd 3D-interactive-portfolio
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Set up environment variables:
-   ```bash
-   # Create a .env.local file in the root directory
-   touch .env.local
-
-   # Add your Resend API key
-   RESEND_API_KEY=your_resend_api_key_here
-   ```
-
-5. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-6. Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
-
-## 🚀 Deployment
-
-This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here](https://www.abhijitzende.com/).
-
-### Setting up Resend API on Vercel
-
-1. Sign up for a [Resend](https://resend.com) account and get your API key
-2. Go to your Vercel project settings
-3. Navigate to the "Environment Variables" section
-4. Add a new environment variable:
-   - Name: `RESEND_API_KEY`
-   - Value: Your Resend API key
-5. Save the changes and redeploy your application
-
-Note: Make sure to keep your API key secret and never commit it to your repository.
-
-## 💖 Acknowledgments
-
-A huge shoutout to [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio) for the inspiration and ideas that sparked this journey! 💡 If you're interested in creative web design, definitely check out his work.
-
-## 📬 Contact
-
-Feel free to reach out to me for collaboration, feedback, or just to say hi! 😊
-
-- **Email:** abhijitzende75@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/zende-abhijit/)
+[https://portfolio-nitin272s-projects.vercel.app/](https://portfolio-self-three-q3legyhx26.vercel.app/)
 
 ---
 
-⭐ If you like this project, don't forget to give it a star!
+## 🔥 Features
+
+### 🎨 Interactive Portfolio Experience
+
+* Clean and modern UI to showcase projects and skills.
+* Interactive sections highlighting development experience and technical stack.
+
+### ✨ Smooth Animations & Interactions
+
+* Built using GSAP and Framer Motion to create smooth transitions and engaging interactions.
+* Responsive animation effects on scroll and hover.
+
+### 📱 Fully Responsive Design
+
+* Optimized for desktop, tablet, and mobile devices.
+* Ensures a consistent experience across screen sizes.
+
+### 🧠 Project Showcase
+
+* Highlights key engineering projects including:
+
+  * ScaleMart – Full-stack E-commerce Platform
+  * Readly – Book Review Platform
+  * BookBuddy – CI/CD-enabled Book Management System
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Next.js
+* Tailwind CSS
+* Shadcn UI
+* Aceternity UI
+
+### Animations & Interaction
+
+* GSAP
+* Framer Motion
+
+### Backend & Systems
+
+* Node.js
+* Express.js
+* REST APIs
+* Redis
+
+### DevOps & Deployment
+
+* Docker
+* GitHub Actions (CI/CD)
+* Vercel
+
+### Tools
+
+* Git
+* GitHub
+* Postman
+
+---
+
+## 🌟 Getting Started
+
+### Clone the repository
+
+```
+git clone https://github.com/nitin272/portfolio.git
+```
+
+### Navigate into the project
+
+```
+cd portfolio
+```
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Run the development server
+
+```
+npm run dev
+```
+
+### Open in browser
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🚀 Deployment
+
+This portfolio is deployed using Vercel for fast and reliable hosting.
+
+Live site:
+[https://portfolio-nitin272s-projects.vercel.app/](https://portfolio-self-three-q3legyhx26.vercel.app/)
+
+---
+
+## 📌 Projects Highlighted
+
+### 🛒 ScaleMart – E-commerce Platform
+
+Full-stack MERN application with authentication, role-based access control, and real-time updates using Socket.io.
+
+### 📚 Readly – Book Review Platform
+
+MERN application with Redis caching for performance optimization and secure JWT authentication.
+
+### 📖 BookBuddy – Book Management System
+
+Built with Ruby on Rails and PostgreSQL, featuring Docker containerization and CI/CD automation using GitHub Actions.
+
+---
+
+## 📬 Contact
+
+Email: [nitin.soni@kalvium.community](mailto:nitinsoni95092@gmail.com)
+
+LinkedIn: [https://www.linkedin.com/in/nitin-soni-79437428a/](https://www.linkedin.com/in/nitin-soni-79437428a/)
+
+GitHub: [https://github.com/nitin272](https://github.com/nitin272)
+
+---
+
+⭐ If you like this project, feel free to star the repository!
