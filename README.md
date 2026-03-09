@@ -134,7 +134,7 @@ Built with Ruby on Rails and PostgreSQL, featuring Docker containerization and C
 
 ## 📬 Contact
 
-Email: [nitin.soni@kalvium.community](mailto:nitinsoni95092@gmail.com)
+Email: [nitinsoni95092@gmail.com](mailto:nitinsoni95092@gmail.com)
 
 LinkedIn: [https://www.linkedin.com/in/nitin-soni-79437428a/](https://www.linkedin.com/in/nitin-soni-79437428a/)
 
